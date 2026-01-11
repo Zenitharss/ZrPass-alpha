@@ -43,7 +43,6 @@ def ZrPass():
                 case _:
                     print("Error")
         except ValueError: print("Error")
-        return password
-ZrPass()
 password = ZrPass()
+
 print(password)
